@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(235, 233, 236);
+}
+.caja-contenedora {
+    color: white;
+    font-family: 'Hind Madurai', sans-serif;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 15px;
+    box-shadow: 15px 15px 5px -3px gray;
+    position: relative;
+    margin: auto;
+    box-shadow: -2px 10px 26px 6px rgba(156,145,145,0.75);
+-webkit-box-shadow: -2px 10px 26px 6px rgba(156,145,145,0.75);
+-moz-box-shadow: -2px 10px 26px 6px rgba(156,145,145,0.75);
+}
+.caja-roja {
+    margin-bottom: 0px;
+    display: flex;
+    background-color: rgb(194, 48, 48);
+    height: 15rem;
+    padding: 2rem;
+    border-radius: 15px 15px 0px 0px;
+}
+.caja-oscura {
+    padding: 2rem;
+    margin-top: 0px;
+    background-color: rgb(13, 13, 27);
+    border-radius: 0px 0px 15px 15px;
+}
+h1{
+    margin: 0px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+img{
+    width: 12rem;
+    height: 12rem;
+    margin: auto;
+}
+.caja-botones{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+    
+}
+button{
+    border: red solid 1px;
+    border-radius: 25px;
+    background-color: rgb(13, 13, 27);
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    font-size: 13px;
+    text-align: center;
+}
+.precio{
+    font-size: 35px;
+    text-align: center;
+}
+.comprar{
+    background-color: rgb(194, 48, 48);;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+p{
+    text-align: center;
+}
+@media (min-width: 1100px) {
+    .caja-contenedora{
+        display: flex;
+    }
+    .caja-roja{
+        width: 30%;
+        height: 90%;
+        border-radius: 15px 0px 0px 15px;
+    }
+    .caja-oscura{
+        width: 70%;
+        height: 90%;
+        border-radius: 0px 15px 15px 0px;
+    }
+    .caja-botones{
+        width: 80%;
+        justify-content: space-between;
+    }
+    
+}
